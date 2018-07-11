@@ -1,0 +1,46 @@
+page-display {
+    #save {
+        //background-image: url('../../assets/imgs/ad.jpg');
+        background-color:  #a4c639;
+        margin-left: 120px;
+        margin-top: 90px;
+        width: 40%;
+        display: inline-block;
+        font-size: 24px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        color:black;
+        border: none;
+        border-radius: 15px;
+    }
+
+    .header .col {
+        
+        font-size: 24px;
+        text-align: center;
+        font-style: bold;
+        border: 10px solid white;
+    }
+
+    .col {
+        border: 10px solid white;
+        text-align: center;
+        font-size: 16px;
+        border-bottom-style: none;
+        border-right-style: none;
+    }
+    h1 {
+        text-align: center;
+        font-size: 30px;
+        color: white;
+    }
+
+    ion-content {
+        background-image: url('../../assets/imgs/ad.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+}

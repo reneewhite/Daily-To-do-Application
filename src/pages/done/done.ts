@@ -1,8 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-
 /**
- * Generated class for the HomePage page.
+ * Generated class for the DonePage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -10,20 +9,24 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 @IonicPage()
 @Component({
-  selector: 'page-home',
-  templateUrl: 'home.html',
+  selector: 'page-done',
+  templateUrl: 'done.html',
 })
-export class HomePage {
+export class DonePage {
+description = " ";
+priority = " ";
+status = " ";
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad HomePage');
+    console.log('ionViewDidLoad DonePage');
   }
 
-  onHome(){
-    this.navCtrl.push("DisplayPage");
+  onSlip(){
+    this.navCtrl.push("DisplayPage",{variable1:this.description, variable2:this.priority, variable3:this.status});
+    
   }
 
 }

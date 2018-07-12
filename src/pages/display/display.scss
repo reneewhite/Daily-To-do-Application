@@ -1,9 +1,9 @@
 page-display {
     #save {
         //background-image: url('../../assets/imgs/ad.jpg');
-        background-color:  #a4c639;
+        background-color:  black;
         margin-left: 120px;
-        margin-top: 90px;
+        margin-top: 10px;
         width: 40%;
         display: inline-block;
         font-size: 24px;
@@ -11,21 +11,22 @@ page-display {
         text-align: center;
         text-decoration: none;
         outline: none;
-        color:black;
+        color:white;
         border: none;
         border-radius: 15px;
     }
 
     .header .col {
-        
-        font-size: 24px;
+        margin-top: 8px;
+        font-size: 20px;
         text-align: center;
         font-style: bold;
-        border: 10px solid white;
+        border: 9px solid black;
+        color:white;
     }
 
     .col {
-        border: 10px solid white;
+        border: 5px solid white;
         text-align: center;
         font-size: 16px;
         border-bottom-style: none;
@@ -34,7 +35,7 @@ page-display {
     h1 {
         text-align: center;
         font-size: 30px;
-        color: white;
+        color: black;
     }
 
     ion-content {
